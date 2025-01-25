@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FARM WORKSHOP</title>
+    <link href="src/output.css" rel="stylesheet">
+    <link href="node_modules/flowbite/dist/flowbite.min.css" rel="stylesheet" />
+</head>
+
+<body style="background-color: rgb(119, 159, 197);">
+    <header>
+        <nav class="bg-blue-200 shadow-md" role="navigation">
+            <div class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 py-3 mx-auto">
+                <a href="#" class="flex items-center space-x-3">
+                    <span class="self-center text-2xl font-bold text-gray-900">FARM WORKSHOP</span>
+                </a>
+                <ul class="flex flex-row space-x-6 text-sm font-medium text-gray-700">
+                    <li><a href="index.html" class="hover:underline">Home</a></li>
+                    <li><a href="product.html" class="hover:underline">Produk & Layanan</a></li>
+                    <li><a href="booking.html" class="hover:underline">Booking</a></li>
+                    <li><a href="berita.html" class="hover:underline">Berita</a></li>
+                    <li><a href="about.html" class="hover:underline">Tentang Kami</a></li>
+                </ul>
+                <form class="relative">
+                    <input type="search" placeholder="Search" class="px-4 py-2 border rounded-lg">
+                    <button type="submit" class="absolute right-2 top-2 text-sm text-white bg-blue-700 px-3 py-1 rounded-lg">Search</button>
+                </form>
+                <a href="login.html" class="text-sm text-white bg-blue-700 rounded-lg px-4 py-2">Login</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="max-w-screen-xl mx-auto mt-6 grid grid-cols-4 gap-4">
+        <!-- Section Welcome -->
+        <section class="col-span-3 bg-blue-200 p-6 shadow rounded">
+            <h2 class="text-lg font-bold mb-4">Selamat Datang di FARM WORKSHOP</h2>
+            <h1>"Selamat datang di FARM WORKSHOP! Kami siap memberikan layanan terbaik untuk kendaraan Anda. Kepuasan Anda adalah prioritas kami."</h1>
+            <div class="grid grid-cols-3 gap-4">
+                <div class="text-center">
+                    <img src="img/layananservice.jpg" alt="Layanan Servis" class="w-full h-32 object-cover rounded">
+                    <p class="mt-2">Layanan Servis</p>
+                </div>
+                <div class="text-center">
+                    <img src="img/booking1.jpg" alt="Cara Booking Service" class="w-full h-32 object-cover rounded">
+                    <p class="mt-2">Cara Booking Service</p>
+                </div>
+                <div class="text-center">
+                    <img src="img/pembayaran.png" alt="Pembayaran yang Nyaman" class="w-full h-35 object-cover rounded">
+                    <p class="mt-2">Pembayaran yang Nyaman</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sidebar -->
+        <aside class="col-span-1 bg-blue-200 p-6 shadow rounded">
+            <h3 class="text-lg font-bold mb-4">Kategori Service</h3>
+            <ul class="space-y-2">
+                <li><a href="#" class="text-blue-700 hover:underline">Service Besar</a></li>
+                <li><a href="#" class="text-blue-700 hover:underline">Service Ringan</a></li>
+                <li><a href="#" class="text-blue-700 hover:underline">Body Repair</a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <section class="max-w-screen-xl mx-auto mt-6 bg-blue-200 p-6 shadow rounded">
+        <h2 class="text-lg font-bold mb-4">Produk Layanan Kami</h2>
+        <div class="grid grid-cols-3 gap-4">
+            <div class="text-center">
+                <img src="img/halamanawal.jpg" alt="Service Besar" class="w-full h-32 object-cover rounded">
+                <p class="mt-2">Service Besar</p>
+                <p class="text-sm text-gray-500">8 Produk</p>
+            </div>
+            <div class="text-center">
+                <img src="img/promo.jpg" alt="Service Ringan" class="w-full h-32 object-cover rounded">
+                <p class="mt-2">Service Ringan</p>
+                <p class="text-sm text-gray-500">2 Produk</p>
+            </div>
+            <div class="text-center">
+                <img src="img/hargasparepart.jpg" alt="Body Repair" class="w-full h-32 object-cover rounded">
+                <p class="mt-2">Body Repair</p>
+                <p class="text-sm text-gray-500">1 Produk</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-blue-200 text-black mt-6 py-4">
+        <div class="max-w-screen-xl mx-auto text-center">
+            <p>Develop By farm workshop @2025</p>
+        </div>
+    </footer>
+
+    <script src="node_modules/flowbite/dist/flowbite.min.js"></script>
+</body>
+
+</html>
